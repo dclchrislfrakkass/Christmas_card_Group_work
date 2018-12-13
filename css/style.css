@@ -80,3 +80,20 @@ body
 		transform: translateY(-1085px);
 	}
 }
+
+/* Placement du bonhomme de neige */
+
+
+.container
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.snowman
+{
+	position: absolute;
+	bottom: 3%;
+	left: 55%;
+	width: 12%;
+}

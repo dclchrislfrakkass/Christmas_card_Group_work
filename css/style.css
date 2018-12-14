@@ -81,12 +81,14 @@ body
 	}
 }
 
-/* Placement du bonhomme de neige */
 
+/* Placement du bonhomme de neige */
 
 .container
 {
 	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 }
@@ -96,4 +98,14 @@ body
 	bottom: 3%;
 	left: 55%;
 	width: 12%;
+}
+
+
+/* Girlande Titre */
+#codeurDuLac
+{
+	position: absolute;
+	bottom: 45%;
+	left: 35%;
+	transform: scale(1.6);
 }
